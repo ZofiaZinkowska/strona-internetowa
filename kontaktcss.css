@@ -1,0 +1,168 @@
+* {
+margin : 0;
+padding : 0;
+font-family : "Open Sans";
+box-sizing : border-box;
+}
+#container {
+max-width : 1000px;
+margin : 0 auto;
+}
+body {
+background-color : #333333;
+font-family : "Open Sans", Arial;
+text-align : left;
+}
+header img {
+width : 100%;
+display : block;
+}
+nav {
+background-color : grey;
+}
+a.menu {
+display : inline-block;
+width : 24.6%;
+color : white;
+text-decoration : none;
+text-align : center;
+}
+a.menu:hover {
+background-color : darkgrey;
+}
+
+.panel {
+width : 1000px;
+max-width : 1000px;
+padding : 15px 0 15px 0;
+margin : 0 auto;
+text-align : center;
+}
+#formularz {
+margin-bottom : 20px;
+padding : 0 25px 25px;
+background : #333333;
+box-shadow : 0 0 0 5px rgb(255, 255, 255, 0.4), 0 4px 20px rgb(0, 0, 0, 0.33);
+border-radius : 5px;
+display : table;
+position : static;
+}
+#formularz .header {
+margin-bottom : 20px;
+}
+#formularz .header h1 {
+color : white;
+font-size : 15px;
+font-weight : bold;
+margin-bottom : 5px;
+}
+#formularz .header p {
+color : white;
+font-size : 14px;
+font-weight : 300;
+}
+#formularz .sep {
+height : 1px;
+background : #E8E8E8;
+width : 1000px;
+margin : 0 -25px;
+}
+#formularz .inputs {
+margin-top : 25px;
+}
+#formularz .inputs label {
+color : white;
+font-size : 12px;
+font-weight : 300;
+letter-spacing : 1px;
+margin-bottom : 7px;
+display : block;
+}
+input::-webkit-input-placeholder {
+color : #B5B5B5;
+}
+input::-moz-placeholder {
+color : #B5B5B5;
+}
+#formularz .inputs  input[type="text"] {
+background : #F5F5F5;
+font-size : 0.8rem;
+border-radius : 3px;
+border : none;
+padding : 13px 10px;
+width : 330px;
+margin-bottom : 20px;
+box-shadow : 0 2px 3px rgb(0, 0, 0, 0.1) inset;
+clear : both;
+}
+#formularz .inputs input[type="text"]:focus {
+background : #FFF;
+box-shadow : 0 0 0 3px #FFF38e, 0 2px 3px #FFF38e inset, 0 5px 5px rgb(0, 0, 0, 0.15);
+outline : none;
+}
+#formularz .inputs label.terms {
+float : left;
+font-size : 14px;
+font-style : italic;
+}
+#formualrz .inputs button[type="submit"] {
+background : #333333;
+width : 100%;
+margin-top : 20px;
+padding : 15px 0;
+color : white;
+font-size : 14px;
+font-weight : bold;
+letter-spacing : 1px;
+text-align : center;
+text-decoration : none;
+border-radius : 5px;
+border : #737b8d solid 1px;
+box-shadow : 0 5px 5px rgb(0, 0, 0, 0.3), 0 1px 0 rgb(255, 255, 255, 0.5) inset;
+text-shadow : 0 1px 3px rgb(0, 0, 0, 0.3), 0 0 0 rgb(255, 255, 255, 0);
+display : table;
+position : static;
+clear : both;
+}
+.Formularz label {
+margin-left : 10px;
+color : #999999;
+}
+
+div.gallery {
+float : left;
+width : 200px;
+height : 200px;
+}
+div.gallery img {
+width : 200px;
+height : 200px;
+}
+article {
+background : #464646;
+font-size : 16px;
+color : white;
+}
+article p {
+background : #464646;
+text-align : justify;
+line-height : 25px;
+padding : 15px 0 15px 0;
+}
+footer {
+height : 40px;
+background-color : #FDF0E7;
+color : white;
+line-height : 40px;
+text-align : center;
+margin-top : 10px;
+}
+address {
+background-color : #FDF0E7;
+color : #2F3954;
+}
+address a {
+background-color : #FDF0E7;
+color : #2F3954;
+text-decoration : none;
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333333;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: dimgrey;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+nav {
+    background-color: grey;
+}
+
+a.menu {
+    display: inline-block;
+    width: 24.6%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+    a.menu:hover {
+        background-color: darkgrey;
+    }
+article {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    color: white;
+	text-align: center;
+}
+
+    article h1 {
+        text-align: center;
+        margin: 0 20% 20px 20%;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #2F3954;
+    }
+	    article p {
+        text-align: center;
+        margin: 0 20% 20px 20%;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #2F3954;
+    }
+
+div.post h2{
+	border: 3px solid grey;
+	color: white;
+	background-color: #333333;
+	padding: 3px;
+	font-size: 14px;
+}
+div.gallery {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+    div.gallery img {
+        width: 200px;
+        height: 200px;
+    }
+
+footer {
+    height: 40px;
+    background-color: #FDF0E7;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+address {
+    background-color: #FDF0E7;
+    color: #2F3954;
+}
+
+    address a {
+        background-color: #FDF0E7;
+        color: #2F3954;
+        text-decoration: none;
+    }
